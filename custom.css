@@ -12,6 +12,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  background-color: rgba(255, 255, 0, 0.2); /* Yellow background color */
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .menu-item img {
@@ -23,4 +26,14 @@ body {
 
 .menu-item-title {
   font-weight: bold;
+  color: #333;
+}
+
+/* Apply different background colors for each menu item */
+.menu-item:nth-child(1) {
+  background-color: rgba(255, 182, 193, 0.2); /* Pink background color */
+}
+
+.menu-item:nth-child(2) {
+  background-color: rgba(0, 0, 255, 0.2); /* Blue background color */
 }

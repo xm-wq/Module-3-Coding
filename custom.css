@@ -1,30 +1,33 @@
-/* Add styling for the boxes */
-.menu-item {
-  background-color: #ffee58;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  box-sizing: border-box;
 }
 
-.section {
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+.box-Chicken {
+  background-color: #EB5757;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 20px solid #9B51E0;
+  margin: 100px;
 }
 
-/* Customize colors for different boxes */
-.yellow-bg {
-  background-color: #ffee58;
+.box-Beef {
+  background-color: #2D9CDB;
+  padding: 10px;
+  height: 100px;
+  width: 108px;
+  border: 30px solid #9B51E0;
+  margin: 70px;
 }
 
-.pink-bg {
-  background-color: #ff80ab;
-}
-
-.blue-bg {
-  background-color: #81d4fa;
-}
-
-.purple-bg {
-  background-color: #ce93d8;
+.box-Sushi {
+  background-color: #9B51E0;
+  padding: 10px;
+  height: 100px;
+  width: 108px;
+  border: 30px solid #9B51E0;
+  margin: 70px;
 }
